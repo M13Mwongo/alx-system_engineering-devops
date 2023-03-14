@@ -1,2 +1,3 @@
 #!/bin/bash
-printf "$((POWER/$DIVID))E,\n"
+printf "$(( POWER / $DIVIDE)),\n"
+
